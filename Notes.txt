@@ -1,0 +1,13 @@
+1. Create IAM User(Administrative access)
+2. AWS CLI configure
+
+
+ipykernel - is a Kernel for Jupyter notebook.
+boto3 - Used to connect S3 bucket
+
+
+setup.py - responsible in creating the ML application as a package.
+
+requirements.txt - "-e ." will tell to run setup.py files.
+
+@dataclass: is the decorator. Instead of defining the class variable in __init__, we can directly use the class variable.
